@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.something{
+    top:50%;
+}
+
+.biggercontainer{
+    height:90vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
