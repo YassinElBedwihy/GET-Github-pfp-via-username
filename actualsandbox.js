@@ -21,8 +21,10 @@ function(e){
       getpfp('https://api.github.com/users/' + name).then(response => {
       document.getElementById('pfp').src = response;
     })} else {console.log ('no user image today :(')}
+
+
     document.getElementById('username').value = "";
+    document.getElementById("buttoni").onclick = () => {window.open('https://github.com/' + name, '_blank'); return false;}
   }
 })
 
-// make a button that takes you to a new tab with the github link
